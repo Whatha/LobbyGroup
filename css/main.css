@@ -2427,12 +2427,39 @@ h3.service-title::after {
  * ------------------------------------------------------------------- */
 
 #testimonials {
-    background: #FFFFFF;
-    padding: 15rem 0 9rem;
+    padding: 6rem 0 9rem;
     text-align: center;
     min-height: 600px;
 }
 
+.team::after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 80%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 70rem;
+    left: 0;
+}
+
+.team::before {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 80%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 9rem;
+    left: 0;
+}
+
+#testimonials h1::after {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
 #testimonials h1::before {
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -2459,7 +2486,7 @@ h3.service-title::after {
     font-family: "muli-regular", sans-serif;
     font-size: 3.2rem;
     line-height: 1.5;
-    color: #303030;
+    color: #ffffff;
 }
 
 #testimonial-slider p::before,
@@ -2500,8 +2527,9 @@ h3.service-title::after {
     font-size: 1.9rem;
     margin-top: .9rem;
     margin-bottom: 3rem;
-    color: #151515;
+    color: #ffffff;
 }
+
 
 #testimonial-slider .testimonial-author .author-info span {
     display: block;
@@ -2510,7 +2538,7 @@ h3.service-title::after {
     line-height: 1.313;
     letter-spacing: 0;
     text-transform: none;
-    color: rgba(0, 0, 0, 0.5);
+    color: #692628;
     margin-top: .3rem;
 }
 
